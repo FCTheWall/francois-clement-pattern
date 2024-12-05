@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../src/**",
+                "${workspaceFolder}/../../ide-vscode/ButtonManager",
+                "${userHome}/.platformio/packages/framework-zephyr/_pio/modules/lib/gui/lvgl",
+                "${userHome}/.platformio/packages/framework-zephyr/modules/lvgl/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_XF_CORE_BEHAVIOR_CLASS"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

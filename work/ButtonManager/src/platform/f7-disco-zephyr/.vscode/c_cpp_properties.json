@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${userHome}/.platformio/packages/framework-zephyr/include",
+                "${userHome}/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../../src/xf/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_PLATFORM_F7_DISCO_ZEPHYR_SYSMEM"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
